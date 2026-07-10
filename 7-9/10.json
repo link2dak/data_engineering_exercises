@@ -1,0 +1,114 @@
+{
+  "customers": [
+    {
+      "customer": {
+        "id": 1,
+        "name": "John Smith",
+        "city": "NY",
+        "state": "NY",
+        "age": 34,
+        "orders": 5,
+        "total_spent": 450.75
+      }
+    },
+    {
+      "customer": {
+        "id": 2,
+        "name": "Sarah Johnson",
+        "city": "Chicago",
+        "state": "IL",
+        "age": 29,
+        "orders": 8,
+        "total_spent": 920.50
+      }
+    },
+    {
+      "customer": {
+        "id": 3,
+        "name": "Michael Brown",
+        "city": "Los Angeles",
+        "state": "CA",
+        "age": 41,
+        "orders": 12,
+        "total_spent": 1530.25
+      }
+    },
+    {
+      "customer": {
+        "id": 4,
+        "name": "Emily Davis",
+        "city": "Houston",
+        "state": "TX",
+        "age": 26,
+        "orders": 3,
+        "total_spent": 210.00
+      }
+    },
+    {
+      "customer": {
+        "id": 5,
+        "name": "David Wilson",
+        "city": "Phoenix",
+        "state": "AZ",
+        "age": 38,
+        "orders": 7,
+        "total_spent": 780.40
+      }
+    },
+    {
+      "customer": {
+        "id": 6,
+        "name": "Jessica Martinez",
+        "city": "Philadelphia",
+        "state": "PA",
+        "age": 31,
+        "orders": 10,
+        "total_spent": 1250.75
+      }
+    },
+    {
+      "customer": {
+        "id": 7,
+        "name": "Robert Anderson",
+        "city": "San Antonio",
+        "state": "TX",
+        "age": 45,
+        "orders": 15,
+        "total_spent": 2100.90
+      }
+    },
+    {
+      "customer": {
+        "id": 8,
+        "name": "Amanda Thomas",
+        "city": "San Diego",
+        "state": "CA",
+        "age": 27,
+        "orders": 4,
+        "total_spent": 360.30
+      }
+    },
+    {
+      "customer": {
+        "id": 9,
+        "name": "Daniel Jackson",
+        "city": "Dallas",
+        "state": "TX",
+        "age": 52,
+        "orders": 20,
+        "total_spent": 3200.15
+      }
+    },
+    {
+      "customer": {
+        "id": 10,
+        "name": "Sophia White",
+        "city": "Seattle",
+        "state": "WA",
+        "age": 36,
+        "orders": 9,
+        "total_spent": 1100.60
+      }
+    }
+  ]
+}
