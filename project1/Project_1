@@ -1,0 +1,131 @@
+# Project 1
+
+## Project Description
+
+Build an end-to-end data engineering pipeline that ingests raw data, processes and transforms it using **PySpark / Amazon EMR**, and loads curated datasets into **Snowflake** for reporting and analysis.
+
+The project should demonstrate:
+
+- Data ingestion
+- Data cleansing
+- Data transformation
+- Data quality validation
+- Cloud data warehousing concepts
+
+---
+
+## Objectives
+
+- Extract and process a dataset containing structured or semi-structured data.
+- Apply PySpark transformations to clean, enrich, and aggregate data.
+- Design and create Snowflake database objects (databases, schemas, tables, stages).
+- Load transformed data into Snowflake.
+- Perform analytical queries on curated datasets.
+- Demonstrate basic data quality checks and validation procedures.
+- Document the pipeline architecture and implementation approach.
+
+---
+
+## Tools Used
+
+- Python
+- PySpark
+- Snowflake
+- SQL
+- Git 
+- Jupyter Notebook / VS Code
+
+---
+
+## Training Timeline
+
+**Weeks:** 1–4
+
+---
+
+## Project Type
+
+**Individual Project**
+
+---
+
+## Business Scenario
+
+A retail company wants to analyze customer orders and product sales. Raw transaction data is received daily and requires cleansing, standardization, and aggregation before being loaded into a data warehouse for reporting.
+
+Please see the following in your course materials:
+customers.csv, orders.csv, and products.csv
+
+---
+
+## Requirements
+
+### Data Processing
+
+- Ingest datasets.
+- Use PySpark to:
+  - Standardize data formats.
+  - Create calculated fields.
+  - Join multiple datasets.
+  - Generate summary metrics.
+  - Clean data, watch out for:
+    - Missing values
+    - Duplicate rows
+    - Invalid IDs
+    - Mixed date formats
+    - Inconsistent capitalization
+    - Leading/trailing whitespace
+    - Invalid emails
+    - Invalid phone numbers
+    - Extra whitespace
+    - Negative values
+    - Impossible values
+    - Currency symbols mixed with numbers
+    - Different boolean representations
+    - Different country/state formats
+    - Null strings ("NULL", "N/A", "")
+    - Invalid foreign keys
+    - Typos
+    - Unicode characters
+    - Embedded commas
+    - Mixed decimal separators
+    - Invalid timestamps
+- Store transformed outputs in an open table format (Apache Iceberg)
+
+### Snowflake
+
+- Create Snowflake tables and schemas.
+- Load curated data into Snowflake.
+
+### Analytics & Validation
+
+- Develop at least **5 analytical SQL queries**.
+- Validate record counts between source and target datasets.
+
+### Documentation
+
+- Produce a simple data flow diagram.
+- Create project documentation.
+
+---
+
+## Deliverables
+
+- Source code repository
+- PySpark transformation scripts/notebooks
+- Snowflake DDL and SQL scripts
+- Documentation describing the architecture
+- Final presentation summarizing the solution
+
+---
+
+## Learning Outcome
+
+By completing this project, learners will demonstrate the ability to build a basic modern data pipeline using **PySpark** for large-scale data processing and **Snowflake** for data warehousing and analytics.
+
+They will gain hands-on experience with:
+
+- ETL concepts
+- Data transformations
+- Cloud data platforms
+- SQL-based reporting

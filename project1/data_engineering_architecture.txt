@@ -1,0 +1,29 @@
+architecture
+
+How does pyspark + EMR interact with Snowflake?
+Snowflake loads from S3 using COPY INTO
+or Spark writes directly into Snowflake using the Snowflake Spark Connector
+
+                Raw Data Sources
+        (S3, Kafka, APIs, Databases)
+                    |
+                    v
+            Amazon S3 (Data Lake)
+                    |
+                    v
+         Amazon EMR (PySpark Jobs)
+      - Cleansing
+      - Validation
+      - Feature Engineering
+      - Large-scale joins
+      - ML preprocessing
+                    |
+      --------------------------------
+      |                              |
+      v                              v
+   Curated S3                  Snowflake
+(Data Lake Tables)          Analytics Warehouse
+                                    |
+                                    |
+                           BI / Dashboards
+                     (Tableau, Power BI, Looker)
